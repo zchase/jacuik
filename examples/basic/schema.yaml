@@ -1,0 +1,6 @@
+name: basic-api
+description: A simple api deployed using jacuik.
+services:
+    - name: api
+      path: .
+      public: true

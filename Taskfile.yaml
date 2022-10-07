@@ -1,0 +1,12 @@
+version: "3"
+
+tasks:
+    build:
+        desc: "Build the CLI."
+        cmds:
+            - go build -o bin/jacuik .
+
+    install:
+        desc: "Install the CLI."
+        cmds:
+            - GOBIN=~/go/bin/ go install
